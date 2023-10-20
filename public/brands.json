@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/2Fw2my4/609911973ae4510004af4a1d.png",
+    "name": "Product 1",
+    "brands": "L'Oréal",
+    "type": "Phone",
+    "price": 499.99,
+    "rating": 4.5,
+    "details": "Product 1 is a high-end smartphone with advanced features."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/RHSL2B5/58429476a6515b1e0ad75acd.png",
+    "name": "Product 2",
+    "brands": " Chanel",
+    "type": "Computer",
+    "price": 899.99,
+    "rating": 4.2,
+    "details": "Product 2 is a powerful desktop computer for gaming and productivity."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/NywpRzQ/600c7f6580244200047b0051.png",
+    "name": "Product 3",
+    "brands": "Estée Lauder",
+    "type": "Headphone",
+    "price": 69.99,
+    "rating": 4.8,
+    "details": "Product 3 is a comfortable and high-quality over-ear headphone."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/f8wPxxc/58429610a6515b1e0ad75ad3.png",
+    "name": "Product 4",
+    "brands": " Dior",
+    "type": "Technology",
+    "price": 199.99,
+    "rating": 4.0,
+    "details": "Product 4 is a versatile tech gadget with multiple functions."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/mJ3jXpw/5ecd1410d0a3960004d74471.png",
+    "name": "Product 5",
+    "brands": "Revlon",
+    "type": "Electronics",
+    "price": 129.99,
+    "rating": 4.7,
+    "details": "Product 5 is an electronic device designed for convenience."
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/7N4Fzgj/kisspng-sunglasses-designer-eyewear-fashion-ray-ban-5ae04eba0f9d39-576737671524649658064.png",
+    "name": "Product 6",
+    "brands": "Tom ford",
+    "type": "Tablet",
+    "price": 299.99,
+    "rating": 4.3,
+    "details": "Product 6 is a compact and versatile tablet for work and entertainment."
+  }
+]

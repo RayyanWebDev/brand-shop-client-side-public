@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Navlists:hover {
+  color: black;
+}
+.Navlists {
+  color: rgb(204, 192, 165);
+}
+.BrandShows {
+  background-color: rgb(251, 247, 239);
+}
+.form {
+  background-color: rgb(255, 246, 235);
+}
+.marque1 {
+  overflow: hidden;
+}
+.marque {
+  animation: marquee 50s linear infinite;
+  animation-play-state: running;
+}
+@keyframes marquee {
+  0% {
+    transform: translate3d(0%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.bg-our-motto {
+  background-color: rgb(245, 237, 221);
+}
