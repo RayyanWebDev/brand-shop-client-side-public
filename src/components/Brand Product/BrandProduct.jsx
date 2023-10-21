@@ -1,26 +1,19 @@
-import React from "react";
+// import React from "react";
 
-const BrandProduct = ({ brandProduct }) => {
-  return (
-    <div>
-      <div className="hero min-h-screen ">
-        <div className="card flex-shrink-0 w-full max-w-2xl  bg-black backdrop-filter  bg-opacity-50  shadow-xl ">
-          <h2 className="mt-11">
-            <span
-              style={{ textTransform: "uppercase" }}
-              className="text-white  text-7xl font-bold "
-            >
-              name
-            </span>
-          </h2>
-          <h3 className="text-red-600 mb-10  text-7xl font-bold"> price</h3>
+// const BrandProduct = ({ brandProduct }) => {
+//   const { _id, image, brandName, type, price, rating, product1 } = brandProduct;
+//   return (
+//     <div>
+//       <div className="card w-96 bg-base-100 shadow-xl mb-14 bg-transparent">
+//         <figure className="px-10 pt-10">
+//           <img src="" alt="Shoes" className="rounded-xl" />
+//         </figure>
+//         <div className="card-body items-center text-center">
+//           <h2 className="card-title"> {product1[0].Name} </h2>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
-          <h3 className="text-white mb-6 text-2xl font-bold"> Details:</h3>
-          <h3 className="text-gray-100 mb-11  text-xl font-bold"> details</h3>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default BrandProduct;
+// export default BrandProduct;
