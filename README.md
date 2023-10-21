@@ -23,6 +23,7 @@ Currently, two official plugins are available:
     - #### Home page:
     - #### Add Product page:
     - #### Add to Cart page:
+    - #### 404 Page:
     - #### Login & Register:
 
 ## Introduction:
@@ -81,9 +82,9 @@ A navbar and Footer is common in every pages. But Home page contains a Banner, B
 
 It has a form to add products, brands and their details in the collection of the database.
 
-#### Add to Cart Page:
+#### 404 Page:
 
-If the user want to add something into their cart, they can click the add to cart button to add the clicked product. But first they must login to the site.
+404 (not found) page for error handling.
 
 #### Sign Up & Sign In Page:
 
