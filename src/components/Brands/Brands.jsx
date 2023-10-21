@@ -4,7 +4,7 @@ import Brand from "../Brand/Brand";
 const Brands = () => {
   const [brands, setBrands] = useState([]);
   useEffect(() => {
-    fetch(".././../../public/brands.json")
+    fetch("http://localhost:5000/product")
       .then((res) => res.json())
       .then((data) => setBrands(data));
   }, []);
@@ -29,7 +29,7 @@ const Brands = () => {
 
         <div className="grid grid-cols-3">
           {brands.map((brand) => (
-            <Brand key={brand.id} brand={brand}></Brand>
+            <Brand key={brand._id} brand={brand}></Brand>
           ))}
         </div>
       </div>
