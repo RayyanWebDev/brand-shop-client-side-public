@@ -12,6 +12,9 @@ import Register from "./components/Register/Register";
 import AuthProvider from "./components/Provider/AuthProvider";
 import Page404 from "./components/Page404/Page404";
 import BrandProducts from "./components/BrandProducts/BrandProducts";
+import ProductDetails from "./components/ProductDetails/ProductDetails";
+import PrivateRoutes from "./components/Routes/PrivateRoutes";
+import Update from "./components/Update/Update";
 
 const router = createBrowserRouter([
   {
@@ -45,8 +48,20 @@ const router = createBrowserRouter([
       {
         path: "/brand/:brandName",
         element: <BrandProducts></BrandProducts>,
-        loader: () => fetch("http://localhost:5000/brand"),
+        loader: () =>
+          fetch(
+            "https://lilac-cosmetic-and-beauty-website-eow2p9ey1.vercel.app/brand"
+          ),
       },
+      {
+        path: "/product/:brandName",
+        element: <ProductDetails></ProductDetails>,
+        loader: () =>
+          fetch(
+            "https://lilac-cosmetic-and-beauty-website-eow2p9ey1.vercel.app/brand"
+          ),
+      },
+      {},
     ],
   },
 ]);

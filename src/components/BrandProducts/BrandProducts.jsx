@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 
 const BrandProducts = () => {
   const brands = useLoaderData();
@@ -67,7 +67,10 @@ const BrandProducts = () => {
             <h2 className="card-title"> Type: {brand.type} </h2>
             <h2 className="card-title"> Price: {brand.price} </h2>
             <h2 className="card-title"> Rating: {brand.rating} </h2>
-            <button>Detail</button> <br />
+            <Link to={`/product/${brandName}`}>
+              <button>Detail</button> <br />
+              {/* /product/:product */}
+            </Link>
             <button>Update</button>
           </div>
         </div>
@@ -86,7 +89,10 @@ const BrandProducts = () => {
             <h2 className="card-title"> Type: {brand.type} </h2>
             <h2 className="card-title"> Price: {brand.price} </h2>
             <h2 className="card-title"> Rating: {brand.rating} </h2>
-            <button>Detail</button> <br />
+            <Link to={`/product/${brandName}`}>
+              <button>Detail</button>
+            </Link>
+            <br />
             <button>Update</button>
           </div>
         </div>
@@ -105,7 +111,10 @@ const BrandProducts = () => {
             <h2 className="card-title"> Type: {brand.type} </h2>
             <h2 className="card-title"> Price: {brand.price} </h2>
             <h2 className="card-title"> Rating: {brand.rating} </h2>
-            <button>Detail</button> <br />
+            <Link to={`/product/${brandName}`}>
+              <button>Detail</button>
+            </Link>
+            <br />
             <button>Update</button>
           </div>
         </div>
@@ -116,36 +125,3 @@ const BrandProducts = () => {
 };
 
 export default BrandProducts;
-
-// import React, { useEffect, useState } from "react";
-// import BrandProduct from "../Brand Product/BrandProduct";
-
-// const BrandProducts = () => {
-//   const [brandProducts, setBrandProducts] = useState([]);
-//   useEffect(() => {
-//     fetch("http://localhost:5000/brand")
-//       .then((res) => res.json())
-//       .then((data) => console.log(data));
-//   }, []);
-//   return (
-//     <div className="max-w-screen-2xl mx-auto">
-//       <div>
-//         <p>Books:{brandProducts.length}</p>
-//       </div>
-//       {brandProducts.map((brandProduct) => (
-//         <BrandProduct
-//           key={brandProduct._id}
-//           brandProduct={brandProduct}
-//         ></BrandProduct>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default BrandProducts;
-
-// // <div className="grid grid-cols-3">
-// //           {brands.map((brand) => (
-// //             <Brand key={brand.id} brand={brand}></Brand>
-// //           ))}
-// //         </div>
